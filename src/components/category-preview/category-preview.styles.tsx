@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 export const CategoryPreviewContainer = styled.div`
   display: flex;
@@ -13,6 +13,7 @@ export const CategoryPreviewContainer = styled.div`
 `;
 
 export const Title = styled(Link)`
+  display: inline-block;
   font-size: 28px;
   margin-bottom: 25px;
   cursor: pointer;

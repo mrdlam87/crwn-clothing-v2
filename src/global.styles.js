@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 	body {
@@ -7,6 +7,10 @@ export const GlobalStyle = createGlobalStyle`
 		font-family: 'Open Sans Condensed', sans-serif;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
+
+		@media screen and (max-width: 800px) {
+			padding: 10px;
+		}
 	}
 
 	code {
@@ -21,5 +25,7 @@ export const GlobalStyle = createGlobalStyle`
 
 	* {
 		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
 	}
 `;
